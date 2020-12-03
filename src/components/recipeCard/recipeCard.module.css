@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     padding: 50px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #name{
@@ -15,6 +15,7 @@
     margin-bottom: 30px;
     margin-top: 0;
     font-family: 'Sansita Swashed', cursive;
+    
 }
 
 #img{
@@ -30,14 +31,39 @@
     margin-bottom: 0;
     font-family: 'Sansita Swashed', cursive;
     font-family: 'Signika', sans-serif;
+    color: #f89345;
 }
 
 #list{
     font-family: 'Sansita Swashed', cursive;
     font-family: 'Signika', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 #recipe{
     font-family: 'Sansita Swashed', cursive;
     font-family: 'Signika', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#list b{
+    color: #eabab9;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#recipe b{
+    color: #eabab9;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+#recipe p{
+    margin-bottom: 0;
+    margin-top: 5px;
 }

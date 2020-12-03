@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
-import Home from './pages/home/home'
+import NavRouter from './components/router/NavRouter';
+import NavBar from './components/navBar/navBar';
 
 const App = () => {
 
   return (
     <div className="App">
-      <Home /> 
+      <NavRouter />
     </div>
   );
 }

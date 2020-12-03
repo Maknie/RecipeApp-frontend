@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import NavBar from '../../components/navBar/navBar';
 import RecipeCard from '../../components/recipeCard/recipeCard';
 import styles from './home.module.css'
 
@@ -16,16 +17,18 @@ const Home = () => {
   }, []);
 
   return (
-    <div id={styles.recipes}>
-    {recipes.map(recipe =>
-        <RecipeCard key={recipe.photo}
-          name={recipe.name}
-          photo={recipe.photo}
-          time={recipe.time}
-          ingredients={recipe.ingredients}
-          recipe={recipe.recipe}
-        />
-      )}
+    <div id={styles.homePage}>
+      <div id={styles.recipes}>
+      {recipes.map(recipe =>
+          <RecipeCard key={recipe.photo}
+            name={recipe.name}
+            photo={recipe.photo}
+            time={recipe.time}
+            ingredients={recipe.ingredients}
+            recipe={recipe.recipe}
+          />
+        )}
+      </div>
     </div>
   );
 }
