@@ -1,0 +1,43 @@
+.card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+#name{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#img{
+    width: 85%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#time{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Signika', sans-serif;
+}
+
+#list{
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Signika', sans-serif;
+}
+
+#recipe{
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Signika', sans-serif;
+}
