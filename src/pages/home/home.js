@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import NavBar from '../../components/navBar/navBar';
 import RecipeCard from '../../components/recipeCard/recipeCard';
 import styles from './home.module.css'
 

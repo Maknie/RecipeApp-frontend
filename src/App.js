@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import NavRouter from './components/router/NavRouter';
-import NavBar from './components/navBar/navBar';
+
 
 const App = () => {
 

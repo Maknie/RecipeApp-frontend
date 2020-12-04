@@ -1,9 +1,15 @@
 .navDiv{
-    background-color: #f89345;
+    background-color: #9684e5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
     display: flex;
     height: 40px;
     padding: 10px 50px;    
     align-items: center;
+    box-shadow: 0 4px 20px -2px  #383838;
 }
 .navList{
     width: 25%;
